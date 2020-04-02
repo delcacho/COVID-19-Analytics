@@ -45,7 +45,11 @@ as population density.
 
 Python 3 is a hard requirement. If you are not using it, you should.
 
-There is a requirements.txt file that allows installing needed libraries (through pip install -r requirements.txt).
+There is a requirements.txt file that allows installing needed libraries:
+
+```
+pip install -r requirements.txt
+```
 
 After this step, make sure that the current directory appears in the PYTHONPATH environment variable.
 
