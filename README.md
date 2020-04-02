@@ -31,9 +31,9 @@ The model seems to have a fairly good accuracy at forecasting outbreak peaks, ha
 
 ## Some of the stuff you can do with this repo
 
-![Plot case fatality rates over time](/img/deathrate.png)
+![Plot case fatality rates over time](/imgs/deathrate.png)
 
-![Forecast confirmed cases for a given country, such as Spain](/img/curvefixed.png)
+![Forecast confirmed cases for a given country, such as Spain](/imgs/curvefixed.png)
 
 ## Dependencies
 
