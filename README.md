@@ -2,7 +2,7 @@
 KPI Tracking of Coronavirus spread over time along with some forecasting models.
 
 ## Data Sources
-Currently downloading country level data from Johns Jopkins CSSE, regional data for the
+Currently downloading country level data from Johns Hopkins CSSE, regional data for the
 US from  USAFacts.org, and regional level data for Spain straight from the PDFs the
 Health Ministry publishes daily and parsing it with tabula.
 
