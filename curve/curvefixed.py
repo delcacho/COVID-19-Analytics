@@ -26,7 +26,7 @@ death["World w/o China"] = death.sum(axis=1)
 #print("Min date: ",np.min(confirmed["Date"]))
 #print("Max date: ",np.max(confirmed["Date"]))
 
-startDate = "2020-03-01"
+startDate = "2020-02-25"
 confirmed = confirmed[confirmed["Date"] >= startDate]
 daysforecast = 200
 projections, model = forecastRegion(confirmed,target,startDate,daysforecast)
