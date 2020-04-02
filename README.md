@@ -78,7 +78,7 @@ python3 spain/madrid.py
   - Lombardy under lockdown growth rate (file italy/lombardy2.py)
 - Analysis of confirmed cases by latitude:
   - Bar chart of confirmed cases (file latitude/latitude.py)  
-  - Confirmed cases over time in lograithmic representation (file latitude/latitude2.py)  
+  - Confirmed cases over time in logarithmic representation (file latitude/latitude2.py)  
   - Northern hemisphere vs Southern hemisphere confirmed cases over time in lograithmic representation (file latitude/hemisphere.py)  
 - Forecasts with a polynomial model to try to fit a Bell curve for newly confirmed cases:
   - Forecasts for several countries (Spain, Italy, UK) along with expected crossing points (file curve/cross.py)
