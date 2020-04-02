@@ -12,6 +12,21 @@ you are interested in analyzing Spanish data because I don't know any source lik
 for Spain. Sometimes the ministry switches formats and breaks things, but hopefully the code
 is already quite resistant to those mischiefs.
 
+## Forecasting model
+
+After plotting several log charts over time I noticed that the curve's arch could be approximated with a
+second degree polynomial quite well. The code to perform the polynomial regression is in file (model/model.py).
+There is a further refinement afterwards, that forces the forecast to be normally distributed. This is accomplished
+through symmetry of the left hand side of the Bell curve with some fancy mathematics. Notice that it is not
+guaranteed that a country's newly confirmed cases curve should be normally distributed, but it is a good approximation
+nonetheless.
+
+A better way to forecast a country would be to fit individual regional models and add them up.
+Central Limit Theorem should make sure the addition of all estimates is normally distributed itself, but normally
+there aren't that many regions for the approximation to apply, and more importantly, they are not identically distributed.
+So the shape depends on the different time intervals of the spread of the disease along with other factors such
+as population density.
+
 ## Dependencies
 
 There is a requirements.txt file that allows installing needed libraries (through pip install -r requirements.txt)
