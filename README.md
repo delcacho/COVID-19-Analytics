@@ -86,3 +86,4 @@ python3 spain/madrid.py
   - Polynomial model with Bell curve reflection after finding maximum with Newton-Raphson method  (file curve/curvefixed.py).
   - Newly confirmed cases for polynomial model with Bell curve reflection (file curve/curvefixedbell.py).
 - Analysis for newly confirmed cases vs newly confirmed deaths for Hubei (file china/hubei.py). This data seems to be manually altered to hide the severity of the epidemic.
+- Some attempts to fit polynomial models to several states in the US can be found in (file usa/curveusa.py)
