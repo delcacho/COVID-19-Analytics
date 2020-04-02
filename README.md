@@ -29,7 +29,6 @@ as population density.
 
 ## Dependencies
 
-There is a requirements.txt file that allows installing needed libraries (through pip install -r requirements.txt)
 
 - pandas
 - urllib3
@@ -41,6 +40,17 @@ There is a requirements.txt file that allows installing needed libraries (throug
 - scikit_learn
 - scipy
 - tabula
+
+## How to get this running
+
+There is a requirements.txt file that allows installing needed libraries (through pip install -r requirements.txt).
+
+After this step, make sure that the current directory appears in the PYTHONPATH environment variable.
+
+Individual files are expected to be executed from the root folder, like so:
+'''
+python3 spain/madrid.py
+'''
 
 ## Currently tracked KPIs
 - Case fatality rate over time (file deathrate.py)
