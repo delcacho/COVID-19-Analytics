@@ -43,14 +43,16 @@ as population density.
 
 ## How to get this running
 
+Python 3 is a hard requirement. If you are not using it, you should.
+
 There is a requirements.txt file that allows installing needed libraries (through pip install -r requirements.txt).
 
 After this step, make sure that the current directory appears in the PYTHONPATH environment variable.
 
 Individual files are expected to be executed from the root folder, like so:
-'''
+```
 python3 spain/madrid.py
-'''
+```
 
 ## Currently tracked KPIs
 - Case fatality rate over time (file deathrate.py)
