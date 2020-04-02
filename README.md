@@ -6,6 +6,12 @@ Currently downloading country level data from Johns Jopkins CSSE, regional data 
 US from  USAFacts.org, and regional level data for Spain straight from the PDFs the
 Health Ministry publishes daily and parsing it with tabula.
 
+In file utils/utils.py there are several functions to process these data sources and convert
+them to Pandas data frames. The function downloadSpainData might be particularly useful if
+you are interested in analyzing Spanish data because I don't know any source like USAFacts
+for Spain. Sometimes the ministry switches formats and breaks things, but hopefully the code
+is already quite resistant to those mischiefs.
+
 ## Dependencies
 
 There is a requirements.txt file that allows installing needed libraries (through pip install -r requirements.txt)
