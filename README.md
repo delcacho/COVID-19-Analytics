@@ -22,7 +22,7 @@ guaranteed that a country's newly confirmed cases curve should be normally distr
 nonetheless.
 
 A better way to forecast a country would be to fit individual regional models and add them up.
-Central Limit Theorem should make sure the addition of all estimates is normally distributed itself, but normally
+Central Limit Theorem should make sure the addition of all estimates is normally distributed itself, but typically 
 there aren't that many regions for the approximation to apply, and more importantly, they are not identically distributed.
 So the shape depends on the different time intervals of the spread of the disease along with other factors such
 as population density.
