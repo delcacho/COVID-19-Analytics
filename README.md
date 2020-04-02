@@ -37,7 +37,7 @@ Plot metrics over time...
 ![Plot](/imgs/deathrate.png)
 
 Forecast confirmed cases for a given country, such as Spain:
-![Forecast](/imgs/curvefixed.png)
+![ForecastSpain](/imgs/curvefixed.png)
 
 ## Dependencies
 
