@@ -27,6 +27,14 @@ there aren't that many regions for the approximation to apply, and more importan
 So the shape depends on the different time intervals of the spread of the disease along with other factors such
 as population density.
 
+The model seems to have a fairly good accuracy at forecasting outbreak peaks, having it tested with Italy and Spain. Post-peak, the normal approximation seems to not be behaving that great.
+
+## Some of the stuff you can do with this repo
+
+![Plot case fatality rates over time](/img/deathrate.png)
+
+![Forecast confirmed cases for a given country, such as Spain](/img/curvefixed.png)
+
 ## Dependencies
 
 
