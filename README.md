@@ -19,7 +19,9 @@ second degree polynomial quite well. The code to perform the polynomial regressi
 There is a further refinement afterwards, that forces the forecast to be normally distributed. This is accomplished
 through symmetry of the left hand side of the Bell curve with some fancy mathematics. Notice that it is not
 guaranteed that a country's newly confirmed cases curve should be normally distributed, but it is a good approximation
-nonetheless.
+nonetheless. Here is a forecast for Spain, for instance:
+
+![Newly confirmed cases](/imgs/forecast.png)
 
 A better way to forecast a country would be to fit individual regional models and add them up.
 Central Limit Theorem should make sure the addition of all estimates is normally distributed itself, but typically 
