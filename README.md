@@ -4,7 +4,22 @@ KPI Tracking of Coronavirus spread over time along with some forecasting models.
 ## Data Sources
 Currently downloading country level data from Johns Jopkins CSSE, regional data for the
 US from  USAFacts.org, and regional level data for Spain straight from the PDFs the
-Health Ministry publishes daily at https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm.
+Health Ministry publishes daily and parsing it with tabula.
+
+## Dependencies
+
+There is a requirements.txt file that allows installing needed libraries (through pip install -r requirements.txt)
+
+- pandas
+- urllib3
+- request
+- seaborn
+- tabula_py
+- matplotlib
+- numpy
+- scikit_learn
+- scipy
+- tabula
 
 ## Currently tracked KPIs
 - Case fatality rate over time (file deathrate.py)
