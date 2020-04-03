@@ -51,7 +51,7 @@ def evaluateModel(model,x):
 def polyCalc(model,x):
    tng = findMaximum(model)
    mx = evaluateModel(model,tng)
-   if x <= tng or mx <= 3:
+   if x <= tng:
       y = evaluateModel(model,x)
    else:
       y = math.log(2 * math.exp(evaluateModel(model,tng)) -
